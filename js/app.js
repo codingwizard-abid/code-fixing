@@ -143,6 +143,7 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
+    document.getElementById( "liked-l" ).style.display = "block";
     const likedPosts = getLikedPosts();
     document.getElementById( "liked" ).textContent = " ";
     likedPosts.forEach((post) => {
@@ -152,6 +153,7 @@ const displayLikedPosts = () => {
 };
 
 const displayReportedPosts = () => {
+  document.getElementById( "reported-r" ).style.display = "block";
     const reportedPosts = getReportedPosts();
     document.getElementById( "reported" ).textContent = " ";
     reportedPosts.forEach((post) => {

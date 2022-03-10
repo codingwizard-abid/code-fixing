@@ -238,12 +238,16 @@ img {
   color: gray;
 }
 
+.heading{
+  display: none;
+}
 #liked{
   display: none;
 }
 #reported{
   display: none;
 }
+
 
 @media only screen and (max-width: 992px) {
   #posts {
