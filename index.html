@@ -79,6 +79,21 @@
                 <!-- <h1>Reported posts</h1> -->
             </div>
         </main>
+
+        <!-- Answer question section -->
+        <section class="answering-question">
+            <div class="wrapper">
+                <div class="first-question common-style">
+                    <h2>How does javascript work?</h2>
+                    <p><b>Answer:</b> Javascript is a high level and first class functional programming language. It is only one language that can run on the browser. Behind the scene, Javascript code executed by a engine called V8 engine(chrome). V8 engine is a program that execute javascript code on the browser and node js. Javascript engine use JIT or Just-in-time compilation where entire code is converted into mechine code at once then immediately executed. There are two things in the javascript engine one is call stack and another one is memory heap. On call stack an execution happend is execution context that means all function are stored before one another and the top stored function executes first then follow this sequence. On the other hand, memory heap is a box or container where all objects are stored. Above all javascript is a object oriented programming language that means codes can be split into multiple pices but every code relates to one another such as prototypical inheritance for building big application.</p> 
+                </div>
+                <div class="second-question common-style">
+                    <h2>What does javascript event loop do?</h2>
+                    <p><b>Answer:</b> Javascript is a single threated programming language. Is has only one threat of execuation. Unlike java, javascript can not execute multiple pices of code at once. Next, there are many web API that are provided to browser not in core language itself. After that there is a callback queue. It is a data structure that holds all the ready to executed callback function attatched to some event. Than call stack execute these functions. And finally this is an event loop that javascript do in a asynchoronous behavior. Gathering and processing events, and executing queued sub-program, it shows us the feeling of multi-threading.The event queue's task is to send new functions for preparing. It takes after the queue data structure to keep on the correct sequence in which all operations should be sent for execution. For example the setTimeout method. While a setTimeout operation is processed in the stack, it is sent to the related API which waits untill the specified time to send this operation for processing.</p>
+                </div>
+            </div>
+        </section>
+
         <footer></footer>
 
         <!-- add javascript  file  -->
