@@ -163,8 +163,8 @@ const displayLikedPosts = () => {
 };
 
 const displayReportedPosts = () => {
-  document.getElementById( "reported-r" ).style.display = "block";
-  document.getElementById( "liked-l" ).style.display = "none";
+    document.getElementById( "reported-r" ).style.display = "block";
+    document.getElementById( "liked-l" ).style.display = "none";
     const reportedPosts = getReportedPosts();
     document.getElementById( "reported" ).textContent = " ";
     reportedPosts.forEach((post) => {
